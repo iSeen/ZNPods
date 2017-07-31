@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DC840F1F2ED1BF003A746D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC840E1F2ED1BF003A746D /* main.m */; };
+		22DC84121F2ED1BF003A746D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC84111F2ED1BF003A746D /* AppDelegate.m */; };
+		22DC84151F2ED1BF003A746D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC84141F2ED1BF003A746D /* ViewController.m */; };
+		22DC84181F2ED1BF003A746D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC84161F2ED1BF003A746D /* Main.storyboard */; };
+		22DC841A1F2ED1BF003A746D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC84191F2ED1BF003A746D /* Assets.xcassets */; };
+		22DC841D1F2ED1BF003A746D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC841B1F2ED1BF003A746D /* LaunchScreen.storyboard */; };
+		22DC84281F2ED1C0003A746D /* ZNPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC84271F2ED1C0003A746D /* ZNPodsDemoTests.m */; };
+		22DC84331F2ED1C0003A746D /* ZNPodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC84321F2ED1C0003A746D /* ZNPodsDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22DC84241F2ED1C0003A746D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DC84021F2ED1BF003A746D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DC84091F2ED1BF003A746D;
+			remoteInfo = ZNPodsDemo;
+		};
+		22DC842F1F2ED1C0003A746D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DC84021F2ED1BF003A746D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DC84091F2ED1BF003A746D;
+			remoteInfo = ZNPodsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22DC840A1F2ED1BF003A746D /* ZNPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC840E1F2ED1BF003A746D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22DC84101F2ED1BF003A746D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22DC84111F2ED1BF003A746D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22DC84131F2ED1BF003A746D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22DC84141F2ED1BF003A746D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22DC84171F2ED1BF003A746D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DC84191F2ED1BF003A746D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DC841C1F2ED1BF003A746D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DC841E1F2ED1BF003A746D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DC84231F2ED1C0003A746D /* ZNPodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNPodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC84271F2ED1C0003A746D /* ZNPodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNPodsDemoTests.m; sourceTree = "<group>"; };
+		22DC84291F2ED1C0003A746D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DC842E1F2ED1C0003A746D /* ZNPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC84321F2ED1C0003A746D /* ZNPodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNPodsDemoUITests.m; sourceTree = "<group>"; };
+		22DC84341F2ED1C0003A746D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DC84071F2ED1BF003A746D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC84201F2ED1C0003A746D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC842B1F2ED1C0003A746D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DC84011F2ED1BF003A746D = {
+			isa = PBXGroup;
+			children = (
+				22DC840C1F2ED1BF003A746D /* ZNPodsDemo */,
+				22DC84261F2ED1C0003A746D /* ZNPodsDemoTests */,
+				22DC84311F2ED1C0003A746D /* ZNPodsDemoUITests */,
+				22DC840B1F2ED1BF003A746D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DC840B1F2ED1BF003A746D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DC840A1F2ED1BF003A746D /* ZNPodsDemo.app */,
+				22DC84231F2ED1C0003A746D /* ZNPodsDemoTests.xctest */,
+				22DC842E1F2ED1C0003A746D /* ZNPodsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DC840C1F2ED1BF003A746D /* ZNPodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22DC84101F2ED1BF003A746D /* AppDelegate.h */,
+				22DC84111F2ED1BF003A746D /* AppDelegate.m */,
+				22DC84131F2ED1BF003A746D /* ViewController.h */,
+				22DC84141F2ED1BF003A746D /* ViewController.m */,
+				22DC84161F2ED1BF003A746D /* Main.storyboard */,
+				22DC84191F2ED1BF003A746D /* Assets.xcassets */,
+				22DC841B1F2ED1BF003A746D /* LaunchScreen.storyboard */,
+				22DC841E1F2ED1BF003A746D /* Info.plist */,
+				22DC840D1F2ED1BF003A746D /* Supporting Files */,
+			);
+			path = ZNPodsDemo;
+			sourceTree = "<group>";
+		};
+		22DC840D1F2ED1BF003A746D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22DC840E1F2ED1BF003A746D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22DC84261F2ED1C0003A746D /* ZNPodsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22DC84271F2ED1C0003A746D /* ZNPodsDemoTests.m */,
+				22DC84291F2ED1C0003A746D /* Info.plist */,
+			);
+			path = ZNPodsDemoTests;
+			sourceTree = "<group>";
+		};
+		22DC84311F2ED1C0003A746D /* ZNPodsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22DC84321F2ED1C0003A746D /* ZNPodsDemoUITests.m */,
+				22DC84341F2ED1C0003A746D /* Info.plist */,
+			);
+			path = ZNPodsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DC84091F2ED1BF003A746D /* ZNPodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DC84371F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemo" */;
+			buildPhases = (
+				22DC84061F2ED1BF003A746D /* Sources */,
+				22DC84071F2ED1BF003A746D /* Frameworks */,
+				22DC84081F2ED1BF003A746D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZNPodsDemo;
+			productName = ZNPodsDemo;
+			productReference = 22DC840A1F2ED1BF003A746D /* ZNPodsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22DC84221F2ED1C0003A746D /* ZNPodsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DC843A1F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemoTests" */;
+			buildPhases = (
+				22DC841F1F2ED1C0003A746D /* Sources */,
+				22DC84201F2ED1C0003A746D /* Frameworks */,
+				22DC84211F2ED1C0003A746D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DC84251F2ED1C0003A746D /* PBXTargetDependency */,
+			);
+			name = ZNPodsDemoTests;
+			productName = ZNPodsDemoTests;
+			productReference = 22DC84231F2ED1C0003A746D /* ZNPodsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22DC842D1F2ED1C0003A746D /* ZNPodsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DC843D1F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemoUITests" */;
+			buildPhases = (
+				22DC842A1F2ED1C0003A746D /* Sources */,
+				22DC842B1F2ED1C0003A746D /* Frameworks */,
+				22DC842C1F2ED1C0003A746D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DC84301F2ED1C0003A746D /* PBXTargetDependency */,
+			);
+			name = ZNPodsDemoUITests;
+			productName = ZNPodsDemoUITests;
+			productReference = 22DC842E1F2ED1C0003A746D /* ZNPodsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DC84021F2ED1BF003A746D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZNPods;
+				TargetAttributes = {
+					22DC84091F2ED1BF003A746D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DZNJ4F4E32;
+						ProvisioningStyle = Automatic;
+					};
+					22DC84221F2ED1C0003A746D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DZNJ4F4E32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22DC84091F2ED1BF003A746D;
+					};
+					22DC842D1F2ED1C0003A746D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DZNJ4F4E32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22DC84091F2ED1BF003A746D;
+					};
+				};
+			};
+			buildConfigurationList = 22DC84051F2ED1BF003A746D /* Build configuration list for PBXProject "ZNPodsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DC84011F2ED1BF003A746D;
+			productRefGroup = 22DC840B1F2ED1BF003A746D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DC84091F2ED1BF003A746D /* ZNPodsDemo */,
+				22DC84221F2ED1C0003A746D /* ZNPodsDemoTests */,
+				22DC842D1F2ED1C0003A746D /* ZNPodsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DC84081F2ED1BF003A746D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC841D1F2ED1BF003A746D /* LaunchScreen.storyboard in Resources */,
+				22DC841A1F2ED1BF003A746D /* Assets.xcassets in Resources */,
+				22DC84181F2ED1BF003A746D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC84211F2ED1C0003A746D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC842C1F2ED1C0003A746D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DC84061F2ED1BF003A746D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC84151F2ED1BF003A746D /* ViewController.m in Sources */,
+				22DC84121F2ED1BF003A746D /* AppDelegate.m in Sources */,
+				22DC840F1F2ED1BF003A746D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC841F1F2ED1C0003A746D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC84281F2ED1C0003A746D /* ZNPodsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DC842A1F2ED1C0003A746D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC84331F2ED1C0003A746D /* ZNPodsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22DC84251F2ED1C0003A746D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DC84091F2ED1BF003A746D /* ZNPodsDemo */;
+			targetProxy = 22DC84241F2ED1C0003A746D /* PBXContainerItemProxy */;
+		};
+		22DC84301F2ED1C0003A746D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DC84091F2ED1BF003A746D /* ZNPodsDemo */;
+			targetProxy = 22DC842F1F2ED1C0003A746D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22DC84161F2ED1BF003A746D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC84171F2ED1BF003A746D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DC841B1F2ED1BF003A746D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC841C1F2ED1BF003A746D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22DC84351F2ED1C0003A746D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22DC84361F2ED1C0003A746D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DC84381F2ED1C0003A746D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22DC84391F2ED1C0003A746D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22DC843B1F2ED1C0003A746D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNPodsDemo.app/ZNPodsDemo";
+			};
+			name = Debug;
+		};
+		22DC843C1F2ED1C0003A746D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNPodsDemo.app/ZNPodsDemo";
+			};
+			name = Release;
+		};
+		22DC843E1F2ED1C0003A746D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZNPodsDemo;
+			};
+			name = Debug;
+		};
+		22DC843F1F2ED1C0003A746D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
+				INFOPLIST_FILE = ZNPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZNPods.ZNPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZNPodsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DC84051F2ED1BF003A746D /* Build configuration list for PBXProject "ZNPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC84351F2ED1C0003A746D /* Debug */,
+				22DC84361F2ED1C0003A746D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DC84371F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC84381F2ED1C0003A746D /* Debug */,
+				22DC84391F2ED1C0003A746D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22DC843A1F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC843B1F2ED1C0003A746D /* Debug */,
+				22DC843C1F2ED1C0003A746D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22DC843D1F2ED1C0003A746D /* Build configuration list for PBXNativeTarget "ZNPodsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC843E1F2ED1C0003A746D /* Debug */,
+				22DC843F1F2ED1C0003A746D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DC84021F2ED1BF003A746D /* Project object */;
+}
