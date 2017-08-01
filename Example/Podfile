@@ -5,11 +5,13 @@ source 'https://github.com/iSeen/ZNSpecs.git'
 use_frameworks!
 
 target 'ZNPods_Example' do
-  pod 'ZNPods', :path => '../'
+
+  pod 'ZNPods'
+
 
   target 'ZNPods_Tests' do
     inherit! :search_paths
-
     pod 'FBSnapshotTestCase'
   end
+
 end
